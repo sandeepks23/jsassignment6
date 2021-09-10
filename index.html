@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Countries</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class='jumbotron'>
+        <div class='container'>
+            <!-- country -->
+
+            <form id="signup" class="form">
+                <h1>Form</h1>
+                <div class="form-field">
+                    <label for="username"><b>Name</b> </label>
+                    <input type="text" name="username" id="username" autocomplete="off">
+                    <small></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" name="email" id="email" autocomplete="off">
+                    <small></small>
+                </div>
+
+
+                <div class='row w3-margin-bottom'>
+                    <div class='col-md-6 col-xs-6'>
+                        <p><b>Country</b></p>
+                    </div>
+                    <div class='col-md-6 col-xs-6'>
+                        <select id="country" class='form-control country-field'>
+                            <option value="">-- Country --</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- region -->
+                <div class='row w3-margin-bottom'>
+                    <div class='col-md-6 col-xs-6'>
+                        <p><b>State</b></p>
+                    </div>
+                    <div class='col-md-6 col-xs-6'>
+                        <select id="region" class='form-control region-field'>
+                            <option value="">-- State --</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="btn-field ">
+                    <input class="btn" type="submit" value="Submit">
+                </div>
+
+
+                <!-- <div id='location'></div> -->
+        </div>
+        
+    </div>
+
+
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
